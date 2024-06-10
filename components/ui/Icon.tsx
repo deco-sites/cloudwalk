@@ -9,6 +9,7 @@ export type AvailableIcons =
   | "QuestionMarkCircle"
   | "User"
   | "ShoppingCart"
+  | "MenuBars"
   | "Bars3"
   | "Heart"
   | "MagnifyingGlass"
