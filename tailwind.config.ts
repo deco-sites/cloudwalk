@@ -7,8 +7,8 @@ export default {
   theme: {
     container: { center: true },
     extend: {
-      fontFamily: {
-        cerapro: ["Cera Pro", "sans-serif"],
+      screens: {
+        ss: "480px",
       },
     },
   },

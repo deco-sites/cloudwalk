@@ -33,5 +33,10 @@
         "family": "Albert Sans"
       }
     ]
+  },
+  "complementaryColors": {
+    "base-300": "#ECEBE9",
+    "base-200": "#181818",
+    "base-content": "#111111"
   }
 }
