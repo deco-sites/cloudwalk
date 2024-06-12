@@ -13,7 +13,44 @@
       "name": "It Works!"
     },
     {
-      "__resolveType": "Footer"
+      "__resolveType": "site/sections/Footer.tsx",
+      "contactUs": {
+        "title": "Contact Us",
+        "text": [
+          "<p>General Requests: <strong><a href=\"mailto:help@cloudwalk.io\" data-mce-href=\"mailto:help@cloudwalk.io\" data-mce-selected=\"inline-boundary\">help@cloudwalk.io﻿</a></strong></p>",
+          "<p>InfinitePay Customer Support: <strong><a href=\"mailto:ajuda@infinitepay.io\" data-mce-href=\"mailto:ajuda@infinitepay.io\" data-mce-selected=\"inline-boundary\">ajuda@infinitepay.io﻿</a></strong></p>",
+          "<p>JIM Customer Support: <strong><a href=\"mailto:help@jim.com\" data-mce-href=\"mailto:help@jim.com\" data-mce-selected=\"inline-boundary\">help@jim.com</a></strong></p>"
+        ]
+      },
+      "footerBottom": {
+        "logo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10679/0e22a79c-4f6b-4904-bdc1-e19076c22296",
+        "logoUrl": "/",
+        "copyright": "© 2024 CloudWalk, Inc. Copyright",
+        "footerColumns": [
+          {
+            "text": [
+              {
+                "content": "<p><a href=\"https://www.jim.com/\" target=\"_blank\" data-mce-href=\"https://www.jim.com/\" data-mce-selected=\"inline-boundary\">🇺🇸 JIM﻿</a></p>"
+              },
+              {
+                "content": "<p><a href=\"https://www.infinitepay.io/\" target=\"_blank\" rel=\"noopener\" data-mce-href=\"https://www.infinitepay.io/\" data-mce-selected=\"inline-boundary\">🇧🇷 InfinitePay﻿</a></p>"
+              }
+            ],
+            "title": "Products"
+          },
+          {
+            "text": [
+              {
+                "content": "<p><a href=\"https://www.infinitepay.io/newsroom\" target=\"_blank\" rel=\"noopener\" data-mce-href=\"https://www.infinitepay.io/newsroom\" data-mce-selected=\"inline-boundary\">﻿Press</a></p>"
+              },
+              {
+                "content": "<p><a href=\"/jobs\" data-mce-href=\"../../../jobs\" data-mce-selected=\"inline-boundary\">﻿Work with us</a></p>"
+              }
+            ],
+            "title": "Company"
+          }
+        ]
+      }
     }
   ],
   "__resolveType": "website/pages/Page.tsx"
