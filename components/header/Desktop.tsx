@@ -7,7 +7,7 @@ export default function DesktopHeader({ logo, navLinks }: Required<Props>) {
       <div class="max-w-[1480px] pl-6 pr-3 py-4 mx-auto sm:px-8 sm:py-[30px] flex justify-between items-center">
         <div class="flex">
           {navLinks.slice(0, 3).map((link) => (
-            <div className="w-full overflow-hidden h-[20px] group flex flex-col whitespace-nowrap">
+            <div className="w-auto overflow-hidden h-[20px] group flex flex-col whitespace-nowrap">
               <a
                 href={link.href}
                 className="block text-white uppercase text-sm font-medium px-3 transition-transform duration-300 transform-gpu group-hover:translate-y-[-100%]"
@@ -36,7 +36,7 @@ export default function DesktopHeader({ logo, navLinks }: Required<Props>) {
         )}
         <div class="flex">
           {navLinks.slice(-3).map((link) => (
-            <div className="w-full overflow-hidden h-[20px] group flex flex-col whitespace-nowrap">
+            <div className="w-auto overflow-hidden h-[20px] group flex flex-col whitespace-nowrap">
               <a
                 href={link.href}
                 className="block text-white uppercase text-sm font-medium px-3 transition-transform duration-300 transform-gpu group-hover:translate-y-[-100%]"
