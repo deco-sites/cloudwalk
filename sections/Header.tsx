@@ -1,44 +1,110 @@
 import { ImageWidget } from "apps/admin/widgets.ts";
 import Image from "apps/website/components/Image.tsx";
-import Icon from "site/components/ui/Icon.tsx";
+
+interface NavLink {
+  label: string;
+  href: string;
+}
 
 export interface Props {
   logo?: ImageWidget;
+  navLinks?: NavLink[];
 }
 
 export default function Header({
   logo = "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10679/8dc68656-2cdc-48e3-929d-7c7dd7cb0e32",
+  navLinks = [
+    {
+      label: "Our Mission",
+      href: "#our-mission",
+    },
+    {
+      label: "Our Pillars",
+      href: "#our-pillars",
+    },
+    {
+      label: "Our Products",
+      href: "#our-products",
+    },
+    {
+      label: "Investors",
+      href: "#investors",
+    },
+    {
+      label: "Work With Us",
+      href: "#work-with-us",
+    },
+    {
+      label: "Contact",
+      href: "#contact",
+    },
+  ],
 }: Props) {
   return (
-    <header class="bg-transparent">
-      <div class="max-w-[1480px] pl-6 pr-3 py-4 mx-auto sm:px-8 sm:py-[30px] grid gric-cols-2">
-        {logo && (
-          <Image
-            src={logo}
-            alt="Cloudwalk logo"
-            class="w-[100px] h-[25px] md:w-[138px] md:h-[35px]"
-            width={138}
-            height={35}
-          />
-        )}
-        {/* The button to open modal */}
-        <label htmlFor="mobile_menu_modal" className="btn">
-          <Icon id="MenuBars" width={30} height={60} />
-        </label>
-      </div>
-
-      <input type="checkbox" id="mobile_menu_modal" className="modal-toggle" />
-      <div className="modal" role="dialog">
-        <div className="modal-box">
-          <h3 className="font-bold text-lg">Hello!</h3>
-          <p className="py-4">This modal works with a hidden checkbox!</p>
-          <div className="modal-action">
-            <label htmlFor="mobile_menu_modal" className="btn">
-              Close!
+    <>
+      <style>
+        {`
+          #mobile_menu_modal:checked + .mob-menu-modal + .btn-modal .modal-btn {
+            transform: translate3d(0px, -50%, 0px);
+          }
+        `}
+      </style>
+      <header class="bg-transparent">
+        <div class="max-w-[1480px] pl-6 pr-3 py-4 mx-auto sm:px-8 sm:py-[30px] flex justify-between relative">
+          {logo && (
+            <Image
+              src={logo}
+              alt="Cloudwalk logo"
+              class="w-[100px] h-[25px] md:w-[138px] md:h-[35px]"
+              width={138}
+              height={35}
+            />
+          )}
+          <div class="block">
+            <input
+              type="checkbox"
+              id="mobile_menu_modal"
+              className="modal-toggle peer"
+            />
+            <div
+              className="mob-menu-modal hidden peer-checked:flex absolute top-full w-full left-0 h-screen bg-black"
+              role="dialog"
+            >
+              <div class="fixed top-0 left-0 w-full h-screen bg-black -z-10 pointer-events-none"></div>
+              <nav class="p-8">
+                <ul class="flex flex-col">
+                  {navLinks.map((link) => (
+                    <li class="py-4 px-6">
+                      <a
+                        href={link.href}
+                        class="text-white uppercase text-2xl font-medium"
+                      >
+                        {link.label}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </nav>
+            </div>
+            {/* The button to open modal */}
+            <label htmlFor="mobile_menu_modal" className="btn-modal">
+              <div class="block overflow-hidden h-[30px]">
+                <img
+                  style={{
+                    transformStyle: "preserve-3d",
+                  }}
+                  class="transition-transform duration-300 modal-btn"
+                  loading="lazy"
+                  src="/menu-icon.svg"
+                  width={30}
+                  height={60}
+                  alt="Menu Icon"
+                />
+              </div>
             </label>
           </div>
         </div>
-      </div>
-    </header>
+      </header>
+    </>
   );
 }
