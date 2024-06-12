@@ -43,7 +43,7 @@ export default function Header({
 }: Props) {
   return (
     <>
-      <header class="bg-transparent">
+      <header class="bg-transparent absolute top-0 left-0 w-full z-20">
         <div class="block md:hidden">
           <HeaderMobile logo={logo} navLinks={navLinks} />
         </div>
