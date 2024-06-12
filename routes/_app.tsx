@@ -24,6 +24,23 @@ export default defineApp(async (_req, ctx) => {
 
         {/* Web Manifest */}
         <link rel="manifest" href={asset("/site.webmanifest")} />
+
+        <script
+          src="https://unpkg.com/lenis@1.1.2/dist/lenis.min.js"
+          async
+        ></script>
+        <script defer>
+          {`
+            const lenis = new Lenis()
+
+            function raf(time) {
+              lenis.raf(time)
+              requestAnimationFrame(raf)
+            }
+
+            requestAnimationFrame(raf)
+          `}
+        </script>
       </Head>
 
       {/* Rest of Preact tree */}
