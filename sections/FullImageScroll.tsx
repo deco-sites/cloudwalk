@@ -33,7 +33,7 @@ export default function FullImageScroll({
         height={540}
         src={image}
       />
-      <div class="flex flex-col justify-center items-center w-full h-full">
+      <div class="flex flex-col justify-center items-center w-full h-full overflow-hidden">
         <div class="relative bg-[rgba(83,83,83,.1)] py-1 px-2 font-medium text-[#111] text-[14px] uppercase rounded-sm">
           {tag}
         </div>

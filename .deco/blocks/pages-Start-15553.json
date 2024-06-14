@@ -27,6 +27,9 @@
       "__resolveType": "site/sections/FullImageScroll.tsx"
     },
     {
+      "__resolveType": "site/sections/OurInvestors.tsx"
+    },
+    {
       "__resolveType": "site/sections/Footer.tsx",
       "contactUs": {
         "title": "Contact Us",
