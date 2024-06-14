@@ -26,7 +26,7 @@ export default function FullImageScroll({
   },
 }: Props) {
   return (
-    <div class="w-full h-screen relative">
+    <div class="w-full h-screen relative text-[18px]">
       <Image
         class="absolute top-0 left-0 w-full h-full object-cover"
         width={960}
