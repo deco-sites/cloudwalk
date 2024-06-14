@@ -18,6 +18,9 @@
       "__resolveType": "site/sections/TextAndImageFade.tsx"
     },
     {
+      "__resolveType": "site/sections/ParallaxSection.tsx"
+    },
+    {
       "__resolveType": "site/sections/Footer.tsx",
       "contactUs": {
         "title": "Contact Us",
