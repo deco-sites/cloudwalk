@@ -24,6 +24,9 @@
       "__resolveType": "site/sections/OurProducts.tsx"
     },
     {
+      "__resolveType": "site/sections/FullImageScroll.tsx"
+    },
+    {
       "__resolveType": "site/sections/Footer.tsx",
       "contactUs": {
         "title": "Contact Us",

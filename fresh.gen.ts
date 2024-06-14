@@ -6,6 +6,7 @@ import * as $_app from "./routes/_app.tsx";
 import * as $AnimatedImage from "./islands/AnimatedImage.tsx";
 import * as $BluredImage from "./islands/BluredImage.tsx";
 import * as $OurMission from "./islands/OurMission.tsx";
+import * as $ScrollText from "./islands/ScrollText.tsx";
 import { type Manifest } from "$fresh/server.ts";
 
 const manifest = {
@@ -16,6 +17,7 @@ const manifest = {
     "./islands/AnimatedImage.tsx": $AnimatedImage,
     "./islands/BluredImage.tsx": $BluredImage,
     "./islands/OurMission.tsx": $OurMission,
+    "./islands/ScrollText.tsx": $ScrollText,
   },
   baseUrl: import.meta.url,
 } satisfies Manifest;
