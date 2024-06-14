@@ -21,6 +21,9 @@
       "__resolveType": "site/sections/ParallaxSection.tsx"
     },
     {
+      "__resolveType": "site/sections/OurProducts.tsx"
+    },
+    {
       "__resolveType": "site/sections/Footer.tsx",
       "contactUs": {
         "title": "Contact Us",
