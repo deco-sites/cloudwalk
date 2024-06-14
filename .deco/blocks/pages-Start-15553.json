@@ -15,6 +15,9 @@
       "__resolveType": "site/sections/OurMission.tsx"
     },
     {
+      "__resolveType": "site/sections/TextAndImageFade.tsx"
+    },
+    {
       "__resolveType": "site/sections/Footer.tsx",
       "contactUs": {
         "title": "Contact Us",

@@ -77,7 +77,7 @@ export default function OurMission({
               />
             </div>
             <p
-              class={`mt-6 max-w-none ss:max-w-[78%] desk:max-w-[60%] text-center text-[15px] ss:text-base font-light`}
+              class={`mt-6 max-w-none ss:max-w-[78%] desk:max-w-[60%] text-center text-[15px] ss:text-[16px] font-light`}
               dangerouslySetInnerHTML={{ __html: text }}
             />
           </div>
