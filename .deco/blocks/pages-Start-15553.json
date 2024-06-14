@@ -12,6 +12,9 @@
       "__resolveType": "site/sections/Hero.tsx"
     },
     {
+      "__resolveType": "site/sections/OurMission.tsx"
+    },
+    {
       "__resolveType": "site/sections/Footer.tsx",
       "contactUs": {
         "title": "Contact Us",

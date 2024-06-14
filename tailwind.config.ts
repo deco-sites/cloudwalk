@@ -9,6 +9,7 @@ export default {
     extend: {
       screens: {
         ss: "480px",
+        desk: "992px",
       },
     },
   },

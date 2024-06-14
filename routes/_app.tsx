@@ -26,7 +26,9 @@ export default defineApp(async (_req, ctx) => {
         <link rel="manifest" href={asset("/site.webmanifest")} />
 
         <script src="https://unpkg.com/lenis@1.1.2/dist/lenis.min.js"></script>
-        
+        <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+
         <script defer>
           {`
             const lenis = new Lenis()
