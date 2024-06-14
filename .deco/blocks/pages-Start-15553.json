@@ -35,7 +35,7 @@
     {
       "__resolveType": "site/sections/Footer.tsx",
       "contactUs": {
-        "title": "Contact Us",
+        "title": "Contact us",
         "text": [
           "<p>General Requests: <strong><a href=\"mailto:help@cloudwalk.io\" data-mce-href=\"mailto:help@cloudwalk.io\" data-mce-selected=\"inline-boundary\">help@cloudwalk.io﻿</a></strong></p>",
           "<p>InfinitePay Customer Support: <strong><a href=\"mailto:ajuda@infinitepay.io\" data-mce-href=\"mailto:ajuda@infinitepay.io\" data-mce-selected=\"inline-boundary\">ajuda@infinitepay.io﻿</a></strong></p>",
