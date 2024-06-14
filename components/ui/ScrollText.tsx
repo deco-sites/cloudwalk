@@ -47,7 +47,7 @@ export default function ScrollText({ text }: Props) {
   return (
     <div
       ref={ref}
-      class="relative uppercase text-[4em] leading-[1] ss:text-[7em] md:text-[9em] desk:text-[10em] text-[#111] opacity-[.72] whitespace-nowrap"
+      class="relative uppercase text-[4em] leading-[1] ss:text-[7em] md:text-[9em] desk:text-[10em] text-[#111] opacity-[.72] whitespace-nowrap font-medium"
       dangerouslySetInnerHTML={{ __html: text }}
     />
   );
