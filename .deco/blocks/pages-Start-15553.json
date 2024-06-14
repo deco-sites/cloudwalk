@@ -30,6 +30,9 @@
       "__resolveType": "site/sections/OurInvestors.tsx"
     },
     {
+      "__resolveType": "site/sections/WorkWithUs.tsx"
+    },
+    {
       "__resolveType": "site/sections/Footer.tsx",
       "contactUs": {
         "title": "Contact Us",

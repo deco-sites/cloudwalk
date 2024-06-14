@@ -5,6 +5,7 @@ interface AnimatedImageProps {
   alt?: string;
   loading: "lazy" | "eager";
   fit?: "contain" | "cover";
+  imageClass?: string;
 }
 
 const AnimatedImage: preact.FunctionComponent<AnimatedImageProps> = ({
@@ -12,6 +13,7 @@ const AnimatedImage: preact.FunctionComponent<AnimatedImageProps> = ({
   alt,
   loading = "lazy",
   fit = "cover",
+  imageClass = "",
 }) => {
   const [isVisible, setIsVisible] = useState(false);
   const ref = useRef<HTMLDivElement>(null);
@@ -43,12 +45,14 @@ const AnimatedImage: preact.FunctionComponent<AnimatedImageProps> = ({
   }, []);
 
   return (
-    <div class="relative overflow-hidden bg-[#181818]" ref={ref}>
+    <div class="relative overflow-hidden w-full h-full bg-[#181818]" ref={ref}>
       <img
         src={src}
         alt={alt}
         loading={loading}
-        class={`animated-image ${isVisible ? "visible" : ""} object-${fit}`}
+        class={`animated-image ${
+          isVisible ? "visible" : ""
+        } object-${fit} ${imageClass}`}
       />
     </div>
   );

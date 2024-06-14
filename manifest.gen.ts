@@ -16,6 +16,7 @@ import * as $$$$$$8 from "./sections/PageLoadingAnimation.tsx";
 import * as $$$$$$9 from "./sections/ParallaxSection.tsx";
 import * as $$$$$$10 from "./sections/TextAndImageFade.tsx";
 import * as $$$$$$11 from "./sections/Theme/Theme.tsx";
+import * as $$$$$$12 from "./sections/WorkWithUs.tsx";
 
 const manifest = {
   "sections": {
@@ -31,6 +32,7 @@ const manifest = {
     "site/sections/ParallaxSection.tsx": $$$$$$9,
     "site/sections/TextAndImageFade.tsx": $$$$$$10,
     "site/sections/Theme/Theme.tsx": $$$$$$11,
+    "site/sections/WorkWithUs.tsx": $$$$$$12,
   },
   "apps": {
     "site/apps/deco/htmx.ts": $$$$$$$$$$$0,

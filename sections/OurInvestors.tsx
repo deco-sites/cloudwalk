@@ -42,7 +42,10 @@ export default function OurInvestors({
   ],
 }: Props) {
   return (
-    <div class="flex flex-col items-center justify-center min-h-[60svh] px-6 py-[60px]">
+    <div
+      id="investors"
+      class="flex flex-col items-center justify-center min-h-[60svh] px-6 py-[60px]"
+    >
       <div class="text-[24px] leading-[1.2] md:text-[42px] text-[#c4c4c4] font-normal">
         {title}
       </div>

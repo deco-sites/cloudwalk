@@ -54,7 +54,7 @@ export default function OurProducts({
   ],
 }: Props) {
   return (
-    <div class="flex flex-col bg-base-200">
+    <div id="our-products" class="flex flex-col bg-base-200">
       {products.map(
         ({ label, coverImage, logoImage, title, text, cta }, index) => (
           <div
