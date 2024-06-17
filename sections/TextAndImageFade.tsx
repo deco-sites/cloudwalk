@@ -10,7 +10,7 @@ export interface Props {
 export default function TextAndImageFade({
   title = "<span class='font-thin'>The planet Earth payments industry and</span> <span class='font-medium'>why price matters.</span> ",
   text = `
-    The payment industry is evolving. But sellers are not reaping the benefits of price wars between big banks and acquirers. In the end, "new" measures and solutions rarely benefit <strong>the sellers, who often suffer the most, damaging the economy.<br>&zwj;</strong><strong><br>It's time to change.</strong><br>Our mission is to outsmart the system by building a new one that is fair for all players.
+    The payment industry is evolving. But sellers are not reaping the benefits of price wars between big banks and acquirers. In the end, "new" measures and solutions rarely benefit <span style="font-weight: 700">the sellers, who often suffer the most, damaging the economy.<br>&zwj;</span><span style="font-weight: 700"><br>It's time to change.</span><br>Our mission is to outsmart the system by building a new one that is fair for all players.
 `,
   image = "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10679/035b9199-b933-4908-8448-ce592c176b5f",
 }: Props) {
@@ -20,7 +20,7 @@ export default function TextAndImageFade({
         <div class="mb-6 md:mb-[96px] desk:mb-0 desk:order-1">
           <AnimatedImage fit="cover" loading="lazy" src={image} />
         </div>
-        <div class="py-[60px] ss:py-8 md:ss-[64px] flex flex-col gap-4 desk:gap-8 text-[18px]">
+        <div class="py-[60px] ss:py-8 md:ss-[64px] flex flex-col gap-4 desk:gap-8 text-[18px] text-base-300">
           <h3
             class="text-2xl md:text-[42px] desk:text-[2.6em] leading-[1.2] -tracking-[.02em]"
             dangerouslySetInnerHTML={{ __html: title }}
