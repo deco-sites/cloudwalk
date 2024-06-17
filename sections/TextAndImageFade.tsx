@@ -16,17 +16,17 @@ export default function TextAndImageFade({
 }: Props) {
   return (
     <>
-      <div class="flex flex-col desk:flex-row-reverse pb-[40px] ss:pb-[148px] px-6 ss:px-8 text-white max-w-[1480px] mx-auto items-center">
-        <div class="mb-6 md:mb-[96px] desk:ml-[96px] desk:mb-0">
+      <div class="flex flex-col desk:grid desk:grid-cols-2 desk:gap-24 pb-[40px] ss:pb-[148px] px-6 ss:px-8 text-white max-w-[1480px] mx-auto items-center">
+        <div class="mb-6 md:mb-[96px] desk:mb-0 desk:order-1">
           <AnimatedImage fit="cover" loading="lazy" src={image} />
         </div>
-        <div class="py-[60px] ss:py-8 md:ss-[64px] flex flex-col gap-4">
+        <div class="py-[60px] ss:py-8 md:ss-[64px] flex flex-col gap-4 desk:gap-8 text-[18px]">
           <h3
-            class="text-2xl md:text-[42px] leading-[1.2]"
+            class="text-2xl md:text-[42px] desk:text-[2.6em] leading-[1.2] -tracking-[.02em]"
             dangerouslySetInnerHTML={{ __html: title }}
           />
           <div
-            class="text-[15px] ss:text-[16px] ss:max-w-[80%]"
+            class="text-[15px] ss:text-[16px] ss:max-w-[80%] leading-[1.5]"
             dangerouslySetInnerHTML={{ __html: text }}
           />
         </div>
