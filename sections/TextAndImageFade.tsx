@@ -26,7 +26,7 @@ export default function TextAndImageFade({
             dangerouslySetInnerHTML={{ __html: title }}
           />
           <div
-            class="text-[15px] ss:text-[16px] ss:max-w-[80%] leading-[1.5]"
+            class="text-[15px] ss:text-[16px] ss:max-w-[80%] leading-[1.5] font-light"
             dangerouslySetInnerHTML={{ __html: text }}
           />
         </div>
