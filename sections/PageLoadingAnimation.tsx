@@ -1,3 +1,5 @@
+import { SectionProps } from "deco/mod.ts";
+
 const snippet = () => {
   const setTransform = (element: HTMLElement, transformValue: string) => {
     if (element) element.style.transform = transformValue;
@@ -42,7 +44,8 @@ const snippet = () => {
   });
 };
 
-export default function PageLoadingAnimation() {
+export default function PageLoadingAnimation({isAdmin} : SectionProps<typeof loader>) {
+  if(isAdmin) return <></>;
   return (
     <>
       <div class="loader flex flex-col z-50 fixed top-0 left-0 w-full h-full overflow-hidden bottom-auto right-auto">
@@ -80,4 +83,11 @@ export default function PageLoadingAnimation() {
       ></script>
     </>
   );
+}
+
+export const loader = (_props: unknown, req: Request) => {
+
+  return{
+    isAdmin: req.url.includes("/preview")
+  }
 }
