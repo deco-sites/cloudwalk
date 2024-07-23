@@ -3,29 +3,7 @@
   "path": "/",
   "sections": [
     {
-      "__resolveType": "website/flags/multivariate/section.ts",
-      "variants": [
-        {
-          "value": {
-            "__resolveType": "site/sections/PageLoadingAnimation.tsx"
-          },
-          "rule": {
-            "__resolveType": "website/matchers/negate.ts",
-            "matcher": {
-              "__resolveType": "website/matchers/host.ts",
-              "includes": "staging"
-            }
-          }
-        },
-        {
-          "value": {
-            "__resolveType": "site/sections/Empty.tsx"
-          },
-          "rule": {
-            "__resolveType": "website/matchers/always.ts"
-          }
-        }
-      ]
+      "__resolveType": "site/sections/PageLoadingAnimation.tsx"
     },
     {
       "__resolveType": "site/sections/Header.tsx"
