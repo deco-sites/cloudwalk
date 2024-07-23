@@ -4,35 +4,37 @@
 
 import * as $$$$$$$$$$$0 from "./apps/deco/htmx.ts";
 import * as $$$$$$$$$$$1 from "./apps/site.ts";
-import * as $$$$$$0 from "./sections/Footer.tsx";
-import * as $$$$$$1 from "./sections/FullImageScroll.tsx";
-import * as $$$$$$2 from "./sections/Header.tsx";
-import * as $$$$$$3 from "./sections/Hero.tsx";
-import * as $$$$$$4 from "./sections/ItWorks.tsx";
-import * as $$$$$$5 from "./sections/OurInvestors.tsx";
-import * as $$$$$$6 from "./sections/OurMission.tsx";
-import * as $$$$$$7 from "./sections/OurProducts.tsx";
-import * as $$$$$$8 from "./sections/PageLoadingAnimation.tsx";
-import * as $$$$$$9 from "./sections/ParallaxSection.tsx";
-import * as $$$$$$10 from "./sections/TextAndImageFade.tsx";
-import * as $$$$$$11 from "./sections/Theme/Theme.tsx";
-import * as $$$$$$12 from "./sections/WorkWithUs.tsx";
+import * as $$$$$$0 from "./sections/Empty.tsx";
+import * as $$$$$$1 from "./sections/Footer.tsx";
+import * as $$$$$$2 from "./sections/FullImageScroll.tsx";
+import * as $$$$$$3 from "./sections/Header.tsx";
+import * as $$$$$$4 from "./sections/Hero.tsx";
+import * as $$$$$$5 from "./sections/ItWorks.tsx";
+import * as $$$$$$6 from "./sections/OurInvestors.tsx";
+import * as $$$$$$7 from "./sections/OurMission.tsx";
+import * as $$$$$$8 from "./sections/OurProducts.tsx";
+import * as $$$$$$9 from "./sections/PageLoadingAnimation.tsx";
+import * as $$$$$$10 from "./sections/ParallaxSection.tsx";
+import * as $$$$$$11 from "./sections/TextAndImageFade.tsx";
+import * as $$$$$$12 from "./sections/Theme/Theme.tsx";
+import * as $$$$$$13 from "./sections/WorkWithUs.tsx";
 
 const manifest = {
   "sections": {
-    "site/sections/Footer.tsx": $$$$$$0,
-    "site/sections/FullImageScroll.tsx": $$$$$$1,
-    "site/sections/Header.tsx": $$$$$$2,
-    "site/sections/Hero.tsx": $$$$$$3,
-    "site/sections/ItWorks.tsx": $$$$$$4,
-    "site/sections/OurInvestors.tsx": $$$$$$5,
-    "site/sections/OurMission.tsx": $$$$$$6,
-    "site/sections/OurProducts.tsx": $$$$$$7,
-    "site/sections/PageLoadingAnimation.tsx": $$$$$$8,
-    "site/sections/ParallaxSection.tsx": $$$$$$9,
-    "site/sections/TextAndImageFade.tsx": $$$$$$10,
-    "site/sections/Theme/Theme.tsx": $$$$$$11,
-    "site/sections/WorkWithUs.tsx": $$$$$$12,
+    "site/sections/Empty.tsx": $$$$$$0,
+    "site/sections/Footer.tsx": $$$$$$1,
+    "site/sections/FullImageScroll.tsx": $$$$$$2,
+    "site/sections/Header.tsx": $$$$$$3,
+    "site/sections/Hero.tsx": $$$$$$4,
+    "site/sections/ItWorks.tsx": $$$$$$5,
+    "site/sections/OurInvestors.tsx": $$$$$$6,
+    "site/sections/OurMission.tsx": $$$$$$7,
+    "site/sections/OurProducts.tsx": $$$$$$8,
+    "site/sections/PageLoadingAnimation.tsx": $$$$$$9,
+    "site/sections/ParallaxSection.tsx": $$$$$$10,
+    "site/sections/TextAndImageFade.tsx": $$$$$$11,
+    "site/sections/Theme/Theme.tsx": $$$$$$12,
+    "site/sections/WorkWithUs.tsx": $$$$$$13,
   },
   "apps": {
     "site/apps/deco/htmx.ts": $$$$$$$$$$$0,
