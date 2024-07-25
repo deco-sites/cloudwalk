@@ -88,6 +88,6 @@ export default function PageLoadingAnimation({isAdmin} : SectionProps<typeof loa
 export const loader = (_props: unknown, req: Request) => {
 
   return{
-    isAdmin: req.url.includes("/preview")
+    isAdmin: req.url.includes("__cb")
   }
 }
