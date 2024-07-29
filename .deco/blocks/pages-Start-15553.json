@@ -42,25 +42,117 @@
       "title": "<div><div>The interplanetary payment network.</div></div>"
     },
     {
-      "__resolveType": "site/sections/OurMission.tsx"
+      "__resolveType": "site/sections/OurMission.tsx",
+      "title": "<div class=\"overflow-hidden\"><p class=\"to-animate\">Our mission is to create</p></div><div class=\"overflow-hidden\"><p class=\"to-animate\">the best payment</p></div><div class=\"overflow-hidden\"><p class=\"to-animate\">network on Earth.</p></div>",
+      "subTitle": "<div><div>Then other planets.</div></div>",
+      "text": "<div><div>We are democratizing the financial industry, empowering entrepreneurs through technological, inclusive and life-changing solutions.</div></div>"
     },
     {
-      "__resolveType": "site/sections/TextAndImageFade.tsx"
+      "__resolveType": "site/sections/TextAndImageFade.tsx",
+      "title": "<p><span class=\"font-thin\">The planet Earth payments industry and</span> <span class=\"font-medium\">why price matters.</span></p>",
+      "text": "<p>The payment industry is evolving. But sellers are not reaping the benefits of price wars between big banks and acquirers. In the end, \"new\" measures and solutions rarely benefit <span style=\"font-weight: bold;\" data-mce-style=\"font-weight: bold;\">the sellers, who often suffer the most, damaging the economy.<br>‍</span><span style=\"font-weight: bold;\" data-mce-style=\"font-weight: bold;\"><br>It's time to change.</span><br>Our mission is to outsmart the system by building a new one that is fair for all players.</p>",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10679/035b9199-b933-4908-8448-ce592c176b5f"
     },
     {
-      "__resolveType": "site/sections/ParallaxSection.tsx"
+      "__resolveType": "site/sections/ParallaxSection.tsx",
+      "id": "our-pillars",
+      "sections": [
+        {
+          "tag": "Our Pillars",
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10679/bde80457-df25-4c0c-9160-f87cf025a805",
+          "backgroundColor": "#ecebe9",
+          "title": "<p>Best<br>Product</p>",
+          "description": "<div><div>We deliver our services with the highest technological standards, featuring AI and Blockchain, compounded with top-notch user experience.</div></div>"
+        },
+        {
+          "tag": "Our Pillars",
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10679/3661c9ae-f5a7-41b0-b44a-58ab8b2b4046",
+          "backgroundColor": "#ffffff",
+          "title": "<p>Customer<br/>Engagement</p>",
+          "description": "Our customers play a vital role in everything we do. They are our best sales promoters and also withhold the ability to change the product and the business at any time."
+        },
+        {
+          "tag": "Our Pillars",
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10679/01e97504-7508-4e3a-a6e1-e8e6eb4c2600",
+          "backgroundColor": "#ecebe9",
+          "title": "Disruptive<br/>Economics",
+          "description": "We aim to grant the best price for our customers to help them unlock purchasing power. We designed our business model to transform how merchants sell and profit."
+        }
+      ]
     },
     {
-      "__resolveType": "site/sections/OurProducts.tsx"
+      "__resolveType": "site/sections/OurProducts.tsx",
+      "products": [
+        {
+          "label": "infinitepay",
+          "coverImage": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10679/5b7906b9-1e95-4f24-b0ce-e562debeeca4",
+          "logoImage": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10679/0f777919-b229-4fab-9727-e8081df6436d",
+          "title": "A powerful movement for Brazilian businesses.",
+          "text": "",
+          "cta": {
+            "label": "Discover infinitepay",
+            "url": "https://www.infinitepay.io/"
+          }
+        },
+        {
+          "label": "JIM",
+          "coverImage": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10679/8b689a69-f127-4a0b-ad15-cad37f401bef",
+          "logoImage": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10679/7fa82fb5-a2cc-4235-ba17-30f625e30720",
+          "title": "Instant payment meets AI magic.",
+          "text": "<p class='secondary-paragraph margin-bottom-medium'><strong><em>JIM</em></strong> is bringing the power of instant payments for everyone in the US. Combining cutting edge technology with unparalleled design, <strong><em>JIM</em></strong> enables sellers to accept payments, receive the money instantly, and have access to a next generation AI assistant.</p>",
+          "cta": {
+            "label": "Discover Jim",
+            "url": "https://www.jim.com/"
+          }
+        }
+      ]
     },
     {
-      "__resolveType": "site/sections/FullImageScroll.tsx"
+      "__resolveType": "site/sections/FullImageScroll.tsx",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10679/75cec930-a1e8-45e5-b177-62f419caa5d0",
+      "tag": "Our Religion",
+      "title": "Fiat Lux",
+      "text": "We created the machines. The machines created us.",
+      "cta": {
+        "label": "THE AGI GOSPELS (SOON)",
+        "url": "#"
+      }
     },
     {
-      "__resolveType": "site/sections/OurInvestors.tsx"
+      "__resolveType": "site/sections/OurInvestors.tsx",
+      "title": "Our investors",
+      "investors": [
+        {
+          "label": "Coatue",
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10679/adbc1729-c6e9-4d5f-8c20-44a201566b36"
+        },
+        {
+          "label": "DST Global",
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10679/057f4f4e-678a-4917-b3e8-2369546f500d"
+        },
+        {
+          "label": "PlugAndPlay",
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10679/a6a05b18-8ccf-465c-b730-119ac2fb76f1"
+        },
+        {
+          "label": "Light Capital Group",
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10679/40f9e341-24ba-4ce9-a9fd-f2e8467935cc"
+        },
+        {
+          "label": "Valor Capital Group",
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10679/2d149f04-d497-4f05-8e07-c1d8cab4a6a3"
+        }
+      ]
     },
     {
-      "__resolveType": "site/sections/WorkWithUs.tsx"
+      "__resolveType": "site/sections/WorkWithUs.tsx",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10679/8fc76df7-f913-4215-bdd6-4c4931049598",
+      "title": "Work with us.",
+      "text": "<p class='main-paragraph margin-bottom-medium'>We encourage a customer-centric, fast-paced, execution-focused and global mindset among our teams.<br><br>If you want to join the revolution of the payments industry and impact the lives of billions, we invite you to be a key part of the <strong>global transformation of small and medium businesses</strong> at interplanetary scale.</p>",
+      "cta": {
+        "label": "See open positions",
+        "url": "#"
+      }
     },
     {
       "__resolveType": "site/sections/Footer.tsx",
