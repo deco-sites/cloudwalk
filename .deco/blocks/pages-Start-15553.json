@@ -6,10 +6,40 @@
       "__resolveType": "site/sections/PageLoadingAnimation.tsx"
     },
     {
-      "__resolveType": "site/sections/Header.tsx"
+      "__resolveType": "site/sections/Header.tsx",
+      "logo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10679/8dc68656-2cdc-48e3-929d-7c7dd7cb0e32",
+      "navLinks": [
+        {
+          "label": "Our Mission",
+          "href": "#our-mission"
+        },
+        {
+          "label": "Our Pillars",
+          "href": "#our-pillars"
+        },
+        {
+          "label": "Our Products",
+          "href": "#our-products"
+        },
+        {
+          "label": "Investors",
+          "href": "#investors"
+        },
+        {
+          "label": "Work With Us",
+          "href": "#work-with-us"
+        },
+        {
+          "label": "Contact",
+          "href": "#contact"
+        }
+      ]
     },
     {
-      "__resolveType": "site/sections/Hero.tsx"
+      "__resolveType": "site/sections/Hero.tsx",
+      "desktopImage": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10679/727feb44-7a76-4bf8-91ac-1001a4d67377",
+      "mobileImage": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10679/7d3453df-2c0a-4f03-ab11-716d52a8eccb",
+      "title": "<div><div>The interplanetary payment network.</div></div>"
     },
     {
       "__resolveType": "site/sections/OurMission.tsx"

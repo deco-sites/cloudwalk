@@ -7,7 +7,8 @@
     "descriptionTemplate": "%s | Deco.cx",
     "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10679/9428795b-e8f6-4111-99d3-6158720aba0d",
     "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10679/a664a1ab-5764-41c6-b443-285eb696b704",
-    "title": "CloudWalk"
+    "title": "CloudWalk",
+    "titleTemplate": "%s"
   },
   "global": [
     {
