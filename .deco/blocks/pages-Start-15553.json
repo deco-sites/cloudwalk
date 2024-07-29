@@ -37,9 +37,13 @@
     },
     {
       "__resolveType": "site/sections/Hero.tsx",
-      "desktopImage": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10679/727feb44-7a76-4bf8-91ac-1001a4d67377",
-      "mobileImage": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10679/7d3453df-2c0a-4f03-ab11-716d52a8eccb",
-      "title": "<div><div>The interplanetary payment network.</div></div>"
+      "title": "<div><div>The interplanetary payment network.</div></div>",
+      "desktopMedia": {
+        "video": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10679/71e84c65-75b5-4187-bc6e-f54ed51ef771"
+      },
+      "mobileMedia": {
+        "video": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10679/71e84c65-75b5-4187-bc6e-f54ed51ef771"
+      }
     },
     {
       "__resolveType": "site/sections/OurMission.tsx",
